@@ -1,5 +1,7 @@
 package main
 
+// https://leetcode-cn.com/problems/diving-board-lcci/
+
 func divingBoard(shorter int, longer int, k int) []int {
 	if k == 0 {
 		return []int{}

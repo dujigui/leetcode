@@ -1,5 +1,7 @@
 package main
 
+// https://leetcode-cn.com/problems/two-sum/
+
 func twoSum(nums []int, target int) []int {
 	r := make([]int, 2)
 	m := make(map[int]int)
